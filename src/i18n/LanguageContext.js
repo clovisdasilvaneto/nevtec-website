@@ -16,6 +16,12 @@ export function LanguageProvider({ children }) {
     }
   }, [])
 
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      document.documentElement.lang = lang
+    }
+  }, [lang])
+
   const setLang = newLang => {
     setLangState(newLang)
     if (typeof window !== "undefined") {

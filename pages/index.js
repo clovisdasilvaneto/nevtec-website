@@ -111,7 +111,6 @@ export default function Home() {
       <Head>
         <title>{t("siteTitle")}</title>
         <meta name="description" content={t("siteDescription")} />
-        <html lang={lang} />
       </Head>
 
       <WebGLBackground />

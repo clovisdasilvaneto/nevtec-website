@@ -87,7 +87,6 @@ export default function Cases() {
       <Head>
         <title>{t("casesTitle")}</title>
         <meta name="description" content={t("casesDescription")} />
-        <html lang={lang} />
       </Head>
 
       <WebGLBackground />
