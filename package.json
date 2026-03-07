@@ -5,8 +5,8 @@
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
-    "build": "NODE_OPTIONS=--openssl-legacy-provider gatsby build",
-    "develop": "NODE_OPTIONS=--openssl-legacy-provider gatsby develop",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider gatsby build",
+    "develop": "cross-env NODE_OPTIONS=--openssl-legacy-provider gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -23,6 +23,7 @@
     "three": "^0.183.2"
   },
   "devDependencies": {
+    "cross-env": "^10.1.0",
     "prettier": "2.0.5"
   },
   "repository": {
