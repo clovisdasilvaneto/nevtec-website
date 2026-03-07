@@ -1,10 +1,8 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
-
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: "Nevtec — Digital Innovation Studio",
+    description:
+      "Nevtec crafts bold digital experiences through cutting-edge technology and design.",
+  },
+  plugins: [`gatsby-plugin-react-helmet`],
 }
