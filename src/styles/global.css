@@ -638,39 +638,39 @@ body::after {
   margin-bottom: 48px;
 }
 
-.contact-whatsapp {
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.contact-action-btn {
   display: inline-flex;
   align-items: center;
   gap: 12px;
 }
 
-.contact-whatsapp svg {
+.contact-action-btn svg {
   flex-shrink: 0;
 }
 
-.contact-email {
-  font-family: var(--font-display);
-  font-weight: 600;
-  font-size: clamp(1.2rem, 3vw, 2rem);
+.contact-email-fallback {
+  margin-top: 24px;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.contact-email-address {
   color: var(--accent-cyan);
   text-decoration: none;
-  position: relative;
-  display: inline-block;
+  border-bottom: 1px solid currentColor;
+  user-select: all;
   transition: opacity 0.3s ease;
 }
 
-.contact-email:hover {
+.contact-email-address:hover {
   opacity: 0.7;
-}
-
-.contact-email::after {
-  content: '';
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background: var(--accent-gradient);
 }
 
 /* Footer */

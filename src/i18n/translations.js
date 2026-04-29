@@ -46,7 +46,10 @@ const translations = {
     contactTitle: "Let's create something",
     contactTitleAccent: "extraordinary.",
     contactText: "Have a project in mind? We'd love to hear about it. Reach out and let's explore how we can bring your vision to life.",
+    contactEmail: "Email us",
     contactWhatsapp: "Chat on WhatsApp",
+    contactEmailFallback: "Or write to us at",
+    whatsappMessage: "Hi, I found your contact on nevtec.org — I'd like to know more about your services.",
 
     // Footer
     footerRights: "All rights reserved.",
@@ -133,7 +136,10 @@ const translations = {
     contactTitle: "Vamos criar algo",
     contactTitleAccent: "extraordinario.",
     contactText: "Tem um projeto em mente? Adorariamos ouvir sobre ele. Entre em contato e vamos explorar como dar vida a sua visao.",
+    contactEmail: "Envie-nos um email",
     contactWhatsapp: "Conversar no WhatsApp",
+    contactEmailFallback: "Ou escreva para",
+    whatsappMessage: "Olá, eu achei seu contato dentro do site da nevtec.org — Gostaria de saber mais informações sobre o seu serviço.",
 
     // Footer
     footerRights: "Todos os direitos reservados.",
